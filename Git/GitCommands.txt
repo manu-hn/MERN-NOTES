@@ -1,0 +1,51 @@
+git config --global user.name "Username"
+
+git config --global user.name "BlackDroid05"
+
+git config --global user.email "example@gmail.com"
+
+git config --global user.email "manuhulikere@gmail.com"
+
+
+
+Cloning
+Creation of local repository usng ssh url
+
+1. Create Remote Repo
+2. Under Code Copy SSH URL
+3. Open git bash in the folder where repo must be cloned use cmnd
+4. git clone <ssh url>
+
+git clone git@github.com:BlackDroid05/DempProject.git
+
+
+To get update from remote repo
+
+git pull
+
+
+HOW TO PUSH CODE FROM LOCAL REPO TO REMOTE REPOSITORY
+
+git status -> to check the status of local repository
+
+git add  -> 
+	1. git add -A
+	2. git add *
+	3. git add filename  - filename with extension
+
+git commit -m"message"
+
+git push
+
+
+ceating branches
+git branch branchname - to create branch
+git branch - to check  branch
+git checkout branchname
+
+
+Spring Boot project
+
+https://github.com/Darshan008-pheonix/Spring_HelloWorld.git
+
+
