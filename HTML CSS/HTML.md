@@ -1,21 +1,21 @@
 ## HTML CSS INTERVIEW QUESTIONS AND ANSWER.
 
-###### 1. What is HTML?
+### 1. What is HTML?
 
 HTML Stands For Hyper Text MArkup Language. It is the language for creating Web pages. HTML describes the structure of a Web page.
 
-###### 2. What is `<!DOCTYPE html>` tag and why it is used?
+### 2. What is `<!DOCTYPE html>` tag and why it is used?
 
 - The <!DOCTYPE html> declaration defines that this document is an HTML5 document
 - The `<!DOCTYPE html>` declaration, introduced in HTML5, is used to indicate that the document is written in HTML5 syntax.
 
-###### 3. What is the use of head tag?
+### 3. What is the use of head tag?
 
 - The `<head>` tag is an essential element in HTML documents, typically placed before the `<body>` tag.
 - It contains meta-information about the document, such as its title, character encoding, links to external resources like stylesheets and scripts, and other metadata that doesn't directly appear on the web page
 - But is important for its proper functioning and search engine optimization.
 
-###### 4. What is BOX MODEL?
+### 4. What is BOX MODEL?
 
 The box model is a fundamental concept in CSS that describes how elements on a web page are laid out and sized.
 
@@ -29,7 +29,7 @@ Imagine every HTML element as being wrapped inside an invisible box. This box co
 
 4. `Margin`: Margin is the space outside the border. It's like the distance between this box and other nearby boxes or elements. Margin helps to create space between elements on the page.
 
-###### 5. Box-Sizing : Border-Box : Content-Box?
+### 5. Box-Sizing : Border-Box : Content-Box?
 
 | Property     | `content-box`                                                                                                         | `border-box`                                                                                                                                         |
 | ------------ | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,7 +38,7 @@ Imagine every HTML element as being wrapped inside an invisible box. This box co
 | Example      | If width = 200px, padding = 10px, border = 2px: Total width = 200px (content) + 20px (padding) + 4px (border) = 224px | If width = 200px, padding = 10px, border = 2px: Total width = 200px (includes padding and border)                                                    |
 | Usage        | Useful for maintaining consistent content size across elements. Default behavior in most browsers.                    | Useful for simplifying layout calculations, especially in responsive designs. Often used in modern web development for a more predictable box model. |
 
-###### 6. What are Replaced Inline Elements and Non-Replaced Inline Elements?
+### 6. What are Replaced Inline Elements and Non-Replaced Inline Elements?
 
 | Property                 | Replaced Inline Elements                                                                         | Non-Replaced Inline Elements                                                                                                    |
 | ------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -50,7 +50,7 @@ Imagine every HTML element as being wrapped inside an invisible box. This box co
 | Accessibility            | Must be provided with alternative text for accessibility purposes, using the `alt` attribute.    | Accessibility can be enhanced through semantic markup and proper use of ARIA attributes.                                        |
 | Rendering Considerations | Replaced elements may have a fixed aspect ratio.                                                 | Non-replaced elements flow inline with text and other elements.                                                                 |
 
-###### 7. What are Difference between Block Level Elements and inline Elements?
+### 7. What are Difference between Block Level Elements and inline Elements?
 
 | Property          | Block-level Elements                                                                               | Inline Elements                                                                                                                 |
 | ----------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +63,7 @@ Imagine every HTML element as being wrapped inside an invisible box. This box co
 | Example Usage     | Main content sections, headers, footers, and navigation menus.                                     | Styling text, creating links, highlighting phrases, and applying inline styles.                                                 |
 | Default Behavior  | Typically stacks vertically, with each element starting on a new line.                             | Flows horizontally within its containing element.                                                                               |
 
-###### 8. What are Difference between Async vs Defer Attributes?
+### 8. What are Difference between Async vs Defer Attributes?
 
 | Attribute    | Async                                                                                     | Defer                                                                                                       |
 | ------------ | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -73,7 +73,7 @@ Imagine every HTML element as being wrapped inside an invisible box. This box co
 | Dependencies | Not suitable for scripts that depend on the DOM or other scripts.                         | Suitable for scripts that depend on the DOM, as they execute after parsing.                                 |
 | Usage        | Recommended for non-blocking, independent scripts, such as analytics or tracking scripts. | Recommended for scripts that need access to the DOM or rely on other scripts, but should not block parsing. |
 
-###### 9. What are Difference between innerHTML vs textContent ?
+### 9. What are Difference between innerHTML vs textContent ?
 
 | Property    | innerHTML                                                                                                  | textContent                                                                            |
 | ----------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -84,18 +84,18 @@ Imagine every HTML element as being wrapped inside an invisible box. This box co
 | Security    | Vulnerable to cross-site scripting (XSS) attacks if used with untrusted data.                              | Safer to use with untrusted data, as it does not interpret HTML.                       |
 | Use Cases   | Suitable for dynamically generating and inserting HTML content, such as from user input or AJAX responses. | Suitable for manipulating text content or updating textual information on a webpage.   |
 
-###### 10. Why Do we use 'alt' attribute in img tag ?
+### 10. Why Do we use 'alt' attribute in img tag ?
 
 - The alt attribute specifies an alternate text for an image, if the image cannot be displayed.
 - The alt attribute provides alternative information for an image if a user for some reason cannot view it.
 - Because of slow connection, an error in the src attribute, or if the user uses a screen reader.
 
-###### 11. What are Semantic tags ?
+### 11. What are Semantic tags ?
 
 - `Semantic elements = elements with a meaning.`
 - A semantic element clearly describes its meaning to both the browser and the developer.
 
-###### 12. What are Semantic tags ?
+### 12. What are Semantic tags ?
 
 To embed a YouTube video in an HTML document, you can use the `<iframe> `element. Here are the steps to do it:
 
@@ -111,7 +111,7 @@ To embed a YouTube video in an HTML document, you can use the `<iframe> `element
 3. Embed in HTML:
    Paste the copied code into your HTML document where you want the video to appear.
 
-###### 13. What are Difference between `div` and `span` tags ?
+### 13. What are Difference between `div` and `span` tags ?
 
 | Property/Feature | `<div>`                                            | `<span>`                                           |
 |------------------|----------------------------------------------------|----------------------------------------------------|
@@ -123,7 +123,7 @@ To embed a YouTube video in an HTML document, you can use the `<iframe> `element
 | Nesting          | Can contain block-level and inline elements       | Can only contain inline elements or text           |
 | Example          | `<div class="container">Content here</div>`       | `<span class="highlight">Highlighted text</span>`  |
  
-###### 13. What are Difference between `margin` and `padding` ?
+### 13. What are Difference between `margin` and `padding` ?
 
 | Property        | Margin                                          | Padding                                         |
 |-----------------|-------------------------------------------------|-------------------------------------------------|
@@ -137,10 +137,10 @@ To embed a YouTube video in an HTML document, you can use the `<iframe> `element
 | Shorthand       | `margin: 10px 15px 10px 15px;` (top, right, bottom, left) | `padding: 10px 15px 10px 15px;` (top, right, bottom, left) |
 | Negative Values | Can be set to negative values to pull elements closer together. | Cannot be set to negative values; must be zero or positive. |
 
-###### 14. Why Does Scrollbar occurs ?
+### 14. Why Does Scrollbar occurs ?
 - A scrollbar appears when a child element's content exceeds the dimensions (width and/or height) of its parent container. 
  
-##### 15. What is Specificity
+### 15. What is Specificity
 - If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
 
 - Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.
